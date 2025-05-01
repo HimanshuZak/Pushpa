@@ -1,0 +1,28 @@
+.course-page {
+    background: linear-gradient(135deg, #046189, #48afb4, #60c2bd);
+    min-height: 100vh;
+    padding-top: 60px;
+  }
+  
+  .course-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  }
+  
+  .card-title {
+    color: #fff;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #000;
+  }
+  

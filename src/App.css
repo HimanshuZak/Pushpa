@@ -1,0 +1,58 @@
+/* App.css */
+body{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.animated-navbar {
+  animation: slideIn 0.4s ease-out;
+  
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.nav-link {
+  position: relative;
+  color: #333 !important;
+  font-weight: 300;
+  padding-bottom: 3px;
+  transition: color 0.3s;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #007bff;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link.active::after {
+  width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #007bff !important;
+  font-weight: bold;
+}
+
+
+.feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}

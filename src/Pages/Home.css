@@ -1,0 +1,49 @@
+.home-hero {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .info-card {
+    background: linear-gradient(to right, #0f2027, #397589, #2c5364);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .info-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Animations */
+  .animate-slide-in {
+    animation: slide-in 1s ease;
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 1.5s ease;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

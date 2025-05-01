@@ -1,0 +1,21 @@
+.about-page {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  section {
+    scroll-margin-top: 80px;
+  }
+  
+  .bg-light .shadow-sm {
+    transition: transform 0.3s ease;
+  }
+  
+  .bg-light .shadow-sm:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* .power{
+    background: linear-gradient(135deg, #046189, #48afb4, #60c2bd);
+    height: 120px;
+    text-align: center;
+  } */
