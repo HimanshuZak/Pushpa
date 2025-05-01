@@ -3,7 +3,7 @@
 import React from 'react';
 import './About.css'; // Custom styling (optional)
 
-const About = () => {
+const Myabout = () => {
   return (
     <div className="about-page">
       {/* Hero Section */}
@@ -74,4 +74,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Myabout;
